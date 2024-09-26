@@ -1,0 +1,21 @@
+1 N-int(input())
+
+Theme
+
+2
+
+A-list(map(int,input().strip().split()))[:N]
+
+3 sum-0
+
+4 count-0
+
+5 for pos in A:
+
+6 sum += pos
+
+7 if sum 0:
+
+8 count+-1
+
+9 print(count)
